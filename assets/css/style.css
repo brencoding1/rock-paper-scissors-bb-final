@@ -84,7 +84,7 @@ button:hover {
     color: #4f9ff5;
 }
 
-.selection-button {
+.choice-button {
     background-color: #3c60a8;
     color: #faf4dc;
     padding: 16px 32px;
@@ -99,15 +99,15 @@ button:hover {
     letter-spacing: normal;
 }
 
-.selection-button:hover {
+.choice-button:hover {
 color: #549ff0;
 }
 
-.symbol-area {
+.icon-area {
     margin: 4em;
 }
 
-.score-area {
+.scoring-area {
     margin: 4em;
     font-size: larger;
 }
@@ -125,7 +125,7 @@ img {
     width: 50%;
 }
 
-.popup-section {
+.popup-box {
     background-color: #fef8df;
     text-align: center;
     position: absolute;
@@ -245,15 +245,15 @@ footer a {
             visibility: hidden;
         }
     
-        .selection-area > h2 {
+        .choice-area > h2 {
             font-size: small;
         }
     
-        .score-area {
+        .scoring-area {
             margin: 1em;
         }
     
-        .selection-area {
+        .choice-area {
             margin: 1em;
         }
     
@@ -261,7 +261,7 @@ footer a {
             margin: 1em;
         }
     
-        .outcome-area > h2 {
+        .result-area > h2 {
             font-size: small;
         }
     }
