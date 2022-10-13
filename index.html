@@ -5,8 +5,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <meta name="description" content="Rock paper scissors">
-    <meta name="keywords" content="game, rock, paper, scissors">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="Rock paper scissors, lizard, Sprock, Game, Classic, Twist">
+    <meta name="keywords" content="game rock paper scissors classic twist">
     <title>BB's Rock Paper Scissors Lizard Spock</title>
 </head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-hand-spock"></i> Rock Paper Scissors Lizard Spock <i class="fas fa-hand-scissors"></i></h1>
+    </header>
+    <div class="game-zone">
+        <div class="popup-section">
+            <p class="rules" id="rules">
+                Scissors cuts paper. Paper covers rock. <br>
+                Rock crushes lizard. Lizard poisons Spock. <br>
+                Spock smashes scissors. Scissors decapitates lizard. <br>
+                Lizard eats paper. Paper disproves Spock. <br>
+                Spock vaporizes rock. Rock crushes scissors.<br>
+                <img src="assets/images/rock-scissors-paper-lizard-spock-icons-hd-png.png" id="image" alt="picture showing the rules of the game"><br>
+                Select the playable hand by pressing its icon! Winner will receive a point!<br>
+                <button onclick="toggleRules()" class="closeButton">Close</button>
+            </p>
+        </div>
+        <div class="popup-box">
+            <p class="rules" id="reset-game-popup">
+                Would you like to reset the game and start over? <br>
+                <button onclick="toggleResetGame() , resetGame()" class="choice-button">Yes</button>
+                <button onclick="toggleResetGame()" class="choice-button">No</button>
+            </p>
+        </div>
+    </div>
+</body>
