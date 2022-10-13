@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Kanit:wght@300&family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #00a2ff;
+    font-family: 'Kanit', sans-serif;
+    color: #3b41fc;
+    align-items: center;
+    text-align: center;
+}
