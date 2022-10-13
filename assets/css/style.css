@@ -169,6 +169,12 @@ footer {
     display: inline-block;
 }
 
+
+footer a {
+    color: #36538c;
+    font-size: x-large;
+}
+
 @media only screen and (max-width: 1500px){
     .popup-box {
         background-color: #fbf8ea;
@@ -185,7 +191,77 @@ footer {
     }
 }
 
-footer a {
-    color: #36538c;
-    font-size: x-large;
+@media only screen and (max-width: 1100px) {
+
+    header  {
+        font-size: 80%;
+    }
+    .button {
+        margin: 0;
+        font-size: 300%;
+    }
+
+    footer {
+        width: 60%;
+    }
 }
+
+@media only screen and (max-width: 670px) {
+
+    .button {
+        font-size: 300%;
+    }
+
+    .rules-box {
+        margin: 0 10em;
+    }
+
+    @media only screen and (max-width: 595px) {
+
+        .button {
+            font-size: 250%;
+        }
+    }
+
+    @media only screen and (max-width: 565px) {}
+
+        header  {
+            font-size: 50%;
+        }
+        .button {
+            letter-spacing: 1rem;
+            font-size: 200%;
+        }
+    
+        footer {
+            font-size: small;
+        }
+    
+        footer a {
+            font-size: small;
+        }
+    
+        h1 > i {
+            visibility: hidden;
+        }
+    
+        .selection-area > h2 {
+            font-size: small;
+        }
+    
+        .score-area {
+            margin: 1em;
+        }
+    
+        .selection-area {
+            margin: 1em;
+        }
+    
+        .outcome-area {
+            margin: 1em;
+        }
+    
+        .outcome-area > h2 {
+            font-size: small;
+        }
+    }
